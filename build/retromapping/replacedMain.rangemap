@@ -1,0 +1,130 @@
+Symbol range map extraction starting
+Processing 3 files
+processing com\girafae\ATP\ATP.java
+@|com\girafae\ATP\ATP.java|8|23|com.girafae.ATP|package|com.girafae.ATP|(file)
+Class Start: com.girafae.ATP.ATP
+   @|com\girafae\ATP\ATP.java|805|811|String|class|java.lang.String
+   @|com\girafae\ATP\ATP.java|812|817|MODID|field|com.girafae.ATP.ATP|MODID|
+   @|com\girafae\ATP\ATP.java|855|861|String|class|java.lang.String
+   @|com\girafae\ATP\ATP.java|862|869|VERSION|field|com.girafae.ATP.ATP|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\girafae\ATP\ATP.java|916|920|init|method|com.girafae.ATP.ATP|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\girafae\ATP\ATP.java|958|969|IOException|class|java.io.IOException
+      @|com\girafae\ATP\ATP.java|921|943|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\girafae\ATP\ATP.java|944|949|event|param|com.girafae.ATP.ATP|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\girafae\ATP\ATP.java|980|986|System|class|java.lang.System
+      @|com\girafae\ATP\ATP.java|987|990|out|field|java.lang.System|out
+      @|com\girafae\ATP\ATP.java|991|998|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\girafae\ATP\ATP.java|1007|1012|MODID|field|com.girafae.ATP.ATP|MODID
+      @|com\girafae\ATP\ATP.java|1021|1028|VERSION|field|com.girafae.ATP.ATP|VERSION
+      @|com\girafae\ATP\ATP.java|1075|1079|File|class|java.io.File
+      @|com\girafae\ATP\ATP.java|1095|1099|File|class|java.io.File
+      @|com\girafae\ATP\ATP.java|1100|1109|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\girafae\ATP\ATP.java|1110|1122|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\girafae\ATP\ATP.java|1125|1134|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com\girafae\ATP\ATP.java|1173|1179|exists|method|java.io.File|exists|()Z
+      @|com\girafae\ATP\ATP.java|1194|1199|mkdir|method|java.io.File|mkdir|()Z
+      @|com\girafae\ATP\ATP.java|1213|1227|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\girafae\ATP\ATP.java|1228|1237|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\girafae\ATP\ATP.java|1238|1246|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\girafae\ATP\ATP.java|1251|1257|Events|class|com.girafae.ATP.Events
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.girafae.ATP.ATP
+endProcessing com\girafae\ATP\ATP.java
+
+processing com\girafae\ATP\Events.java
+@|com\girafae\ATP\Events.java|8|23|com.girafae.ATP|package|com.girafae.ATP|(file)
+Class Start: com.girafae.ATP.Events
+   @|com\girafae\ATP\Events.java|622|628|String|class|java.lang.String
+   @|com\girafae\ATP\Events.java|629|634|Style|field|com.girafae.ATP.Events|Style|
+   Method Start: OnChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\girafae\ATP\Events.java|1288|1294|OnChat|method|com.girafae.ATP.Events|OnChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\girafae\ATP\Events.java|1333|1353|InterruptedException|class|java.lang.InterruptedException
+      @|com\girafae\ATP\Events.java|1355|1366|IOException|class|java.io.IOException
+      @|com\girafae\ATP\Events.java|1295|1318|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|com\girafae\ATP\Events.java|1319|1324|event|param|com.girafae.ATP.Events|OnChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\girafae\ATP\Events.java|1377|1386|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\girafae\ATP\Events.java|1392|1401|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\girafae\ATP\Events.java|1402|1414|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\girafae\ATP\Events.java|1426|1437|PrintWriter|class|java.io.PrintWriter
+      @|com\girafae\ATP\Events.java|1450|1461|PrintWriter|class|java.io.PrintWriter
+      @|com\girafae\ATP\Events.java|1466|1476|FileWriter|class|java.io.FileWriter
+      @|com\girafae\ATP\Events.java|1480|1489|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com\girafae\ATP\Events.java|1532|1538|String|class|java.lang.String
+      @|com\girafae\ATP\Events.java|1554|1560|String|class|java.lang.String
+      @|com\girafae\ATP\Events.java|1561|1566|Files|class|java.nio.file.Files
+      @|com\girafae\ATP\Events.java|1567|1579|readAllBytes|method|java.nio.file.Files|readAllBytes|(Ljava/nio/file/Path;)[B
+      @|com\girafae\ATP\Events.java|1580|1585|Paths|class|java.nio.file.Paths
+      @|com\girafae\ATP\Events.java|1586|1589|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|com\girafae\ATP\Events.java|1593|1602|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com\girafae\ATP\Events.java|1654|1662|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\girafae\ATP\Events.java|1663|1668|Style|field|com.girafae.ATP.Events|Style
+      @|com\girafae\ATP\Events.java|1678|1685|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|com\girafae\ATP\Events.java|1686|1691|Style|field|com.girafae.ATP.Events|Style
+      @|com\girafae\ATP\Events.java|1704|1713|Functions|class|com.girafae.ATP.Functions
+      @|com\girafae\ATP\Events.java|1735|1744|Functions|class|com.girafae.ATP.Functions
+      @|com\girafae\ATP\Events.java|1756|1762|String|class|java.lang.String
+      @|com\girafae\ATP\Events.java|1773|1778|event|param|com.girafae.ATP.Events|OnChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\girafae\ATP\Events.java|1779|1786|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\girafae\ATP\Events.java|1787|1805|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\girafae\ATP\Events.java|1823|1830|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|com\girafae\ATP\Events.java|1900|1907|GetData|method|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Events.java|1972|1979|GetData|method|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Events.java|2051|2058|GetData|method|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Events.java|2127|2134|GetData|method|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Events.java|2194|2199|flush|method|java.io.Flushable|flush|()V
+   Method End: OnChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : com.girafae.ATP.Events
+endProcessing com\girafae\ATP\Events.java
+
+processing com\girafae\ATP\Functions.java
+@|com\girafae\ATP\Functions.java|8|23|com.girafae.ATP|package|com.girafae.ATP|(file)
+Class Start: com.girafae.ATP.Functions
+   Method Start: Print()Z
+      @|com\girafae\ATP\Functions.java|314|319|Print|method|com.girafae.ATP.Functions|Print|()Z
+      @|com\girafae\ATP\Functions.java|350|359|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\girafae\ATP\Functions.java|365|374|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\girafae\ATP\Functions.java|375|387|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\girafae\ATP\Functions.java|403|414|Framebuffer|class|net.minecraft.client.shader.Framebuffer
+      @|com\girafae\ATP\Functions.java|424|438|getFramebuffer|method|net.minecraft.client.Minecraft|getFramebuffer|()Lnet/minecraft/client/shader/Framebuffer;
+      @|com\girafae\ATP\Functions.java|454|470|ScreenShotHelper|class|net.minecraft.util.ScreenShotHelper
+      @|com\girafae\ATP\Functions.java|471|485|saveScreenshot|method|net.minecraft.util.ScreenShotHelper|saveScreenshot|(Ljava/io/File;IILnet/minecraft/client/shader/Framebuffer;)Lnet/minecraft/util/IChatComponent;
+      @|com\girafae\ATP\Functions.java|489|498|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com\girafae\ATP\Functions.java|503|515|displayWidth|field|net.minecraft.client.Minecraft|displayWidth
+      @|com\girafae\ATP\Functions.java|520|533|displayHeight|field|net.minecraft.client.Minecraft|displayHeight
+      @|com\girafae\ATP\Functions.java|583|592|Exception|class|java.lang.Exception
+   Method End: Print()Z
+   Method Start: GetData(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|659|666|GetData|method|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|652|658|String|class|java.lang.String
+      @|com\girafae\ATP\Functions.java|667|673|String|class|java.lang.String
+      @|com\girafae\ATP\Functions.java|674|678|Data|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|Data|0
+      @|com\girafae\ATP\Functions.java|680|686|String|class|java.lang.String
+      @|com\girafae\ATP\Functions.java|687|701|ContentMessage|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|ContentMessage|1
+      @|com\girafae\ATP\Functions.java|713|726|LocalDateTime|class|java.time.LocalDateTime
+      @|com\girafae\ATP\Functions.java|733|746|LocalDateTime|class|java.time.LocalDateTime
+      @|com\girafae\ATP\Functions.java|747|750|now|method|java.time.LocalDateTime|now|()Ljava/time/LocalDateTime;
+      @|com\girafae\ATP\Functions.java|766|770|Data|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|Data|0
+      @|com\girafae\ATP\Functions.java|771|777|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\girafae\ATP\Functions.java|811|817|format|method|java.time.chrono.ChronoLocalDateTime|format|(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|818|835|DateTimeFormatter|class|java.time.format.DateTimeFormatter
+      @|com\girafae\ATP\Functions.java|836|845|ofPattern|method|java.time.format.DateTimeFormatter|ofPattern|(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+      @|com\girafae\ATP\Functions.java|884|888|Data|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|Data|0
+      @|com\girafae\ATP\Functions.java|889|895|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\girafae\ATP\Functions.java|930|936|format|method|java.time.chrono.ChronoLocalDateTime|format|(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|937|954|DateTimeFormatter|class|java.time.format.DateTimeFormatter
+      @|com\girafae\ATP\Functions.java|955|964|ofPattern|method|java.time.format.DateTimeFormatter|ofPattern|(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+      @|com\girafae\ATP\Functions.java|1001|1005|Data|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|Data|0
+      @|com\girafae\ATP\Functions.java|1006|1012|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\girafae\ATP\Functions.java|1043|1057|ContentMessage|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|ContentMessage|1
+      @|com\girafae\ATP\Functions.java|1058|1063|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|1072|1077|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|1109|1113|Data|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|Data|0
+      @|com\girafae\ATP\Functions.java|1114|1120|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\girafae\ATP\Functions.java|1154|1168|ContentMessage|param|com.girafae.ATP.Functions|GetData|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;|ContentMessage|1
+      @|com\girafae\ATP\Functions.java|1169|1174|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com\girafae\ATP\Functions.java|1183|1188|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+   Method End: GetData(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+Class End  : com.girafae.ATP.Functions
+endProcessing com\girafae\ATP\Functions.java
+
