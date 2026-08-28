@@ -37,6 +37,9 @@ public class Functions {
         if (Data.equals("Message")) {
             return ContentMessage.split("<")[1].split(">")[1];
         }
+        if (Data.equals("Completed")) {
+            return ContentMessage.replace("<","").replace(">","");
+        }
         // if (Data.equals("Skin")) {return map.get(MinecraftProfileTexture.Type.SKIN).getUrl();} // ->  In Future? <- \\
         return "null";
     }

@@ -33388,6 +33388,7 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
 Start Processing: com\girafae\ATP\ATP.java
+Warning: com\girafae\ATP\ATP.java has CRLF line endings; consider switching to LF
 [method, com/girafae/ATP/ATP/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
 No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
@@ -33411,19 +33412,18 @@ Start Processing: com\girafae\ATP\Events.java
 Warning: com\girafae\ATP\Events.java has CRLF line endings; consider switching to LF
 [method, com/girafae/ATP/Events/OnChat, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
 No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
-Rename class net/minecraft/client/Minecraft[1377,1386]::Minecraft->Minecraft
-Rename class net/minecraft/client/Minecraft[1392,1401]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1402,1414]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/mcDataDir[1480,1489]::mcDataDir->field_71412_D
+Rename class net/minecraft/client/Minecraft[1395,1404]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[1410,1419]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1420,1432]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/mcDataDir[1502,1511]::mcDataDir->field_71412_D
 [method, java/nio/file/Files/readAllBytes, (Ljava/nio/file/Path;)[B]
 [method, java/nio/file/Paths/get, (Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;]
-Rename field net/minecraft/client/Minecraft/mcDataDir[1597,1606]::mcDataDir->field_71412_D
+Rename field net/minecraft/client/Minecraft/mcDataDir[1623,1632]::mcDataDir->field_71412_D
 [method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
 [method, java/io/PrintWriter/println, (Ljava/lang/String;)V]
 No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
-Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[1795,1813]::getUnformattedText->func_150260_c
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[1833,1851]::getUnformattedText->func_150260_c
 [method, java/io/PrintWriter/println, (Ljava/lang/String;)V]
-[method, com/girafae/ATP/Functions/GetData, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
 [method, com/girafae/ATP/Functions/GetData, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
 [method, com/girafae/ATP/Functions/GetData, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
 [method, com/girafae/ATP/Functions/GetData, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
@@ -33461,6 +33461,9 @@ Rename field net/minecraft/client/Minecraft/displayHeight[523,536]::displayHeigh
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
 [method, java/lang/String/split, (Ljava/lang/String;)[Ljava/lang/String;]
 [method, java/lang/String/split, (Ljava/lang/String;)[Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/String/replace, (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+[method, java/lang/String/replace, (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.shader.Framebuffer
 Import: net.minecraft.util.ScreenShotHelper
